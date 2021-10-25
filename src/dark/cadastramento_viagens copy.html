@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="pt-Br">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="wrappixel, admin dashboard, html css dashboard, web dashboard, bootstrap 4 admin, bootstrap 4, css3 dashboard, bootstrap 4 dashboard, material admin bootstrap 4 dashboard, frontend, responsive bootstrap 4 admin template, material design, material dashboard bootstrap 4 dashboard template">
+    <meta name="description" content="MaterialPro is powerful and clean admin dashboard template, inpired from Google's Material Design">
+    <meta name="robots" content="noindex,nofollow">
+    <title>Dist. Bebidas Miraí</title>
+    <link rel="canonical" href="https://www.distribuidoramirai.com/" />
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
+    <link href="../assets/libs/chartist/dist/chartist.min.css" rel="stylesheet">
+    <link href="../../dist/js/pages/chartist/chartist-init.css" rel="stylesheet">
+    <link href="../assets/libs/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.css" rel="stylesheet">
+    <link href="../assets/libs/c3/c3.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="../../dist/css/style.min.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+    <!-- ============================================================== -->
+    <!-- Preloader - style you can find in spinners.css -->
+    <!-- ============================================================== -->
+    <div class="preloader">
+        <div class="lds-ripple">
+            <div class="lds-pos"></div>
+            <div class="lds-pos"></div>
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- Main wrapper - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+    <div id="main-wrapper">
+        <!-- ============================================================== -->
+        <!-- Topbar header - style you can find in pages.scss -->
+        <!-- ============================================================== -->
+        <header class="topbar">
+            <nav class="navbar top-navbar navbar-expand-md navbar-dark">
+                <div class="navbar-header">
+                    <!-- This is for the sidebar toggle which is visible on mobile only -->
+                    <a class="nav-toggler waves-effect waves-light d-block d-md-none" href="javascript:void(0)"><i
+                            class="ti-menu ti-close"></i></a>
+                    <!-- ============================================================== -->
+                    <!-- Logo -->
+                    <!-- ============================================================== -->
+                    <a class="navbar-brand" href="index.html">
+                        <!-- Logo icon -->
+                        <b class="logo-icon">
+                            <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
+                            <!-- Dark Logo icon -->
+                            <img src="../assets/images/logo-icon.png" alt="homepage" class="dark-logo" />
+                            <!-- Light Logo icon -->
+                            <img src="../assets/images/logo-light-icon.png" alt="homepage" class="light-logo" />
+                        </b>
+                        <!--End Logo icon -->
+                        <!-- Logo text -->
+                        <span class="logo-text">
+                            <!-- dark Logo text -->
+                            <img src="../assets/images/logo-text.png" alt="homepage" class="dark-logo" />
+                            <!-- Light Logo text -->
+                            <img src="../assets/images/logo-light-text.png" class="light-logo" alt="homepage" />
+                        </span>
+                    </a>
+                    <!-- ============================================================== -->
+                    <!-- End Logo -->
+                    <!-- ============================================================== -->
+                    <!-- ============================================================== -->
+                    <!-- Toggle which is visible on mobile only -->
+                    <!-- ============================================================== -->
+                    <a class="topbartoggler d-block d-md-none waves-effect waves-light" href="javascript:void(0)"
+                        data-toggle="collapse" data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i
+                            class="ti-more"></i></a>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Logo -->
+                <!-- ============================================================== -->
+                <div class="navbar-collapse collapse" id="navbarSupportedContent">
+                    <!-- ============================================================== -->
+                    <!-- toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav mr-auto">
+                        <!-- This is  -->
+                        <li class="nav-item"> <a
+                                class="nav-link sidebartoggler d-none d-md-block waves-effect waves-dark"
+                                href="javascript:void(0)"><i class="ti-menu"></i></a> </li>
+                        <!-- ============================================================== -->
+                        <!-- Search -->
+                        <!-- ============================================================== -->
+                       
+                        <!-- ============================================================== -->
+                        <!-- Mega Menu -->
+                        <!-- ============================================================== -->
+                        
+                    </ul>
+                    <!-- ============================================================== -->
+                    <!-- Right side toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav">
+                        <!-- ============================================================== -->
+                        <!-- Comment -->
+                        <!-- ============================================================== -->
+                        
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- ============================================================== -->
+        <!-- End Topbar header -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <aside class="left-sidebar">
+            <!-- Sidebar scroll-->
+            <div class="scroll-sidebar">
+                <!-- User profile -->
+                <div class="user-profile position-relative" style="background: url(../assets/images/background/user-info.jpg) no-repeat;">
+                    <!-- User profile image -->
+                    <div class="profile-img"> <img src="../assets/images/users/profile.png" alt="user" class="w-100" /> </div>
+                    <!-- User profile text-->
+                    <div class="profile-text pt-1"> 
+                        <a href="#" class="dropdown-toggle u-dropdown w-100 text-white d-block position-relative" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Markarn Doe</a>
+                        <div class="dropdown-menu animated flipInY"> 
+                            <a href="#" class="dropdown-item"><i class="ti-user"></i>
+                                Meu Perfil</a> 
+                            <a href="#" class="dropdown-item"><i class="ti-wallet"></i> Minhas Metas</a>
+                            <a href="#" class="dropdown-item"><i class="ti-email"></i> Mensagens</a>
+                            <div class="dropdown-divider"></div> 
+                            <a href="#" class="dropdown-item"><i class="ti-settings"></i> Configurações</a>
+                            <div class="dropdown-divider"></div> 
+                            <a href="authentication-login1.html" class="dropdown-item"><i class="fa fa-power-off"></i> Logout</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End User profile text-->
+                <!-- Sidebar navigation-->
+                <nav class="sidebar-nav">
+                    <ul id="sidebarnav">
+                        <li class="nav-small-cap">
+                            <i class="mdi mdi-dots-horizontal"></i>
+                            <span class="hide-menu">Formulários</span>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)"
+                                aria-expanded="false">
+                                <i class="mdi mdi-gauge"></i>
+                                <span class="hide-menu">Cadastro </span>
+                            </a>
+                            <ul aria-expanded="false" class="collapse  first-level">
+                                <li class="sidebar-item">
+                                    <a href="cadastramento_viagens.html" class="sidebar-link">
+                                        <i class="mdi mdi-adjust"></i>
+                                        <span class="hide-menu"> Quebras </span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a href="cadastramento_viagens.html" class="sidebar-link">
+                                        <i class="mdi mdi-adjust"></i>
+                                        <span class="hide-menu"> Viagens </span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a href="cadastramento_viagens.html" class="sidebar-link">
+                                        <i class="mdi mdi-adjust"></i>
+                                        <span class="hide-menu"> Abastecimento </span>
+                                    </a>
+                                </li>
+                               
+                            </ul>
+                        </li>
+                       
+                        <li class="nav-small-cap"><i class="mdi mdi-dots-horizontal"></i>
+                            <span class="hide-menu">Aplicativos</span></li>
+                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
+                                href="app-calendar.html" aria-expanded="false"><i class="mdi mdi-calendar"></i><span
+                                    class="hide-menu">Calendário</span></a></li>
+                        
+                      
+                        <li class="nav-small-cap"><i class="mdi mdi-dots-horizontal"></i>
+                            <span class="hide-menu">Extra</span></li>
+                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
+                                href="../../../Documentation/document.html" aria-expanded="false"><i
+                                    class="mdi mdi-content-paste"></i><span class="hide-menu">Documentation</span></a>
+                        </li>
+                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
+                                href="authentication-login1.html" aria-expanded="false"><i
+                                    class="mdi mdi-directions"></i><span class="hide-menu">Log Out</span></a></li>
+                    </ul>
+                </nav>
+                <!-- End Sidebar navigation -->
+            </div>
+            <!-- End Sidebar scroll-->
+            <!-- Bottom points-->
+            <div class="sidebar-footer">
+                <!-- item-->
+                <a href="" class="link" data-toggle="tooltip" title="Settings"><i class="ti-settings"></i></a>
+                <!-- item-->
+                <a href="" class="link" data-toggle="tooltip" title="Email"><i class="mdi mdi-gmail"></i></a>
+                <!-- item-->
+                <a href="" class="link" data-toggle="tooltip" title="Logout"><i class="mdi mdi-power"></i></a>
+            </div>
+            <!-- End Bottom points-->
+        </aside>
+        <!-- ============================================================== -->
+        <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Page wrapper  -->
+        <!-- ============================================================== -->
+        <div class="page-wrapper">
+            <!-- ============================================================== -->
+            <!-- Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+            <div class="row page-titles">
+                <div class="col-md-5 col-12 align-self-center">
+                    <h3 class="text-themecolor mb-0">Dashboard</h3>
+                    <ol class="breadcrumb mb-0">
+                        <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
+                        <li class="breadcrumb-item active">Dashboard</li>
+                    </ol>
+                </div>
+                <div class="col-md-7 col-12 align-self-center d-none d-md-block">
+                    <div class="d-flex mt-2 justify-content-end">
+                        <div class="d-flex mr-3 ml-2">
+                            <div class="chart-text mr-2">
+                                <h6 class="mb-0"><small>Este Mês</small></h6>
+                                <h4 class="mt-0 text-info">$58,356</h4>
+                            </div>
+                            <div class="spark-chart">
+                                <div id="monthchart"></div>
+                            </div>
+                        </div>
+                        <div class="d-flex ml-2">
+                            <div class="chart-text mr-2">
+                                <h6 class="mb-0"><small>Último mês</small></h6>
+                                <h4 class="mt-0 text-primary">$48,356</h4>
+                            </div>
+                            <div class="spark-chart">
+                                <div id="lastmonthchart"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- Container fluid  -->
+            <!-- ============================================================== -->
+            <div class="container-fluid">
+                <!-- Row -->
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="card card-body">
+                            <h3 class="mb-0">Cadastramento de Carregamento</h3>
+                            <p class="text-muted mb-4 font-13"> Dados de carregamento </p>
+                            <div class="row">
+                                <div class="col-sm-12 col-xs-12">
+                                    <form>
+                                       
+                                        <div class="form-group row">
+                                            <label for="example-date-input" class="col-md-2 col-form-label">Data</label>
+                                            <div class="col-md-10">
+                                                <input class="form-control" type="date" value=""
+                                                    id="example-date-input">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">Carga</label>
+                                            <input type="text" class="form-control" id="cargo-form"
+                                                placeholder="Insira o MAPA">
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="example-number-input" class="col-md-2 col-form-label">Caixas</label>
+                                            <div class="col-md-10">
+                                                <input class="form-control" type="number" value="42"
+                                                    id="example-number-input">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="example-number-input" class="col-md-2 col-form-label">Cubos</label>
+                                            <div class="col-md-10">
+                                                <input class="form-control" type="number" value="42"
+                                                    id="example-number-input">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputPassword1">Password</label>
+                                            <input type="password" class="form-control" id="exampleInputPassword1"
+                                                placeholder="Password">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputPassword1">Password</label>
+                                            <input type="password" class="form-control" id="exampleInputPassword1"
+                                                placeholder="Confirm Password">
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="checkbox checkbox-success">
+                                                <input id="checkbox1" type="checkbox" class="material-inputs">
+                                                <label for="checkbox1"> Remember me </label>
+                                            </div>
+                                        </div>
+                                        <button type="submit"
+                                            class="btn btn-success waves-effect waves-light mr-2">Submit</button>
+                                        <button type="submit"
+                                            class="btn btn-inverse waves-effect waves-light">Cancel</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="card card-body">
+                            <h3 class="mb-0">Sample Horizontal form</h3>
+                            <p class="text-muted mb-4 font-13"> Use Bootstrap's predefined grid classes for horizontal
+                                form </p>
+                            <form class="form-horizontal">
+                                <div class="form-group row">
+                                    <label for="inputEmail3"
+                                        class="col-sm-3 text-right control-label col-form-label">Username*</label>
+                                    <div class="col-sm-9">
+                                        <input type="email" class="form-control" id="inputEmail3"
+                                            placeholder="Username">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="inputEmail3"
+                                        class="col-sm-3 text-right control-label col-form-label">Email*</label>
+                                    <div class="col-sm-9">
+                                        <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="inputEmail3"
+                                        class="col-sm-3 text-right control-label col-form-label">Website</label>
+                                    <div class="col-sm-9">
+                                        <input type="email" class="form-control" id="inputEmail3" placeholder="Website">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="inputPassword3"
+                                        class="col-sm-3 text-right control-label col-form-label">Password*</label>
+                                    <div class="col-sm-9">
+                                        <input type="password" class="form-control" id="inputPassword3"
+                                            placeholder="Password">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="inputPassword4"
+                                        class="col-sm-3 text-right control-label col-form-label">Re Password*</label>
+                                    <div class="col-sm-9">
+                                        <input type="password" class="form-control" id="inputPassword4"
+                                            placeholder="Retype Password">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <div class="offset-sm-3 col-sm-9">
+                                        <div class="checkbox checkbox-success">
+                                            <input id="checkbox33" type="checkbox" class="material-inputs">
+                                            <label for="checkbox33">Check me out !</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group mb-0">
+                                    <div class="offset-sm-3 col-sm-9">
+                                        <button type="submit" class="btn btn-info waves-effect waves-light mt-2">Sign
+                                            in</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>    
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- footer -->
+            <!-- ============================================================== -->
+            <footer class="footer">
+                © Comercial de Bebidas Miraí Ltda 2021
+            </footer>
+            <!-- ============================================================== -->
+            <!-- End footer -->
+            <!-- ============================================================== -->
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Page wrapper  -->
+        <!-- ============================================================== -->
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Wrapper -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- customizer Panel -->
+    <!-- ============================================================== -->
+    
+    <div class="chat-windows"></div>
+    <!-- ============================================================== -->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    <script src="../assets/libs/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="../assets/libs/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- apps -->
+    <script src="../../dist/js/app.min.js"></script>
+    <script src="../../dist/js/app.init.dark.js"></script>
+    <script src="../../dist/js/app-style-switcher.js"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="../assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
+    <script src="../assets/extra-libs/sparkline/sparkline.js"></script>
+    <!--Wave Effects -->
+    <script src="../../dist/js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="../../dist/js/sidebarmenu.js"></script>
+    <!--Custom JavaScript -->
+    <script src="../../dist/js/custom.min.js"></script>
+    <!--This page JavaScript -->
+    <!-- chartist chart -->
+    <script src="../assets/libs/chartist/dist/chartist.min.js"></script>
+    <script src="../assets/libs/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js"></script>
+    <!--c3 JavaScript -->
+    <script src="../assets/libs/d3/dist/d3.min.js"></script>
+    <script src="../assets/libs/c3/c3.min.js"></script>
+    <!-- Chart JS -->
+    <script src="../../dist/js/pages/dashboards/dashboard1.js"></script>
+</body>
+
+</html>
